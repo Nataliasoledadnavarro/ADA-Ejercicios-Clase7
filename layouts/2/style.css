@@ -1,0 +1,31 @@
+html, body{height: 100%;
+        background-color: white;
+        margin:0;
+        padding: 0;}
+
+header{ background-color: pink;
+        height: 15%;
+        display:flex; 
+        justify-content: center;
+        align-items: center;
+        }
+        
+nav{ background-color: rebeccapurple;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+main{ height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+footer{ background-color: rgb(109, 76, 139); 
+    height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }

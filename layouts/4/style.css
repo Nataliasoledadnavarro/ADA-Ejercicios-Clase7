@@ -1,0 +1,33 @@
+html, body{ height: 100%;
+            margin: 0%;
+            padding: 0%;}
+
+header{height: 60px;
+        background-color: blueviolet;
+        display: flex;      
+        justify-content: center;
+        align-items:center; }
+
+main{ height: 100%;
+    display: flex;
+    }
+
+.izquierda{ width: 70%;
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+
+.derecha{ width: 30%;
+            background-color: coral;
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+
+footer{ height: 60px;
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;    
+        align-items: center;}
+
+calc(100% - 120px)

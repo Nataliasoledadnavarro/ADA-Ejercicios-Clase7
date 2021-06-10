@@ -1,0 +1,38 @@
+body,html{ height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+                }
+
+header{ height: 40px;
+        background-color: pink;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+main{ width: 100%;
+        height: 100%;
+        display: flex; }
+
+.izquierda{ width: 30%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items:center;
+          background-color: violet;}    
+
+.derecha{ width: 70%;
+                height: 100%;
+                display: flex;            
+                justify-content: center;
+                align-items: center;}
+
+
+footer{height: 40px;
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+
+body{height: calc(100% - 80px);}

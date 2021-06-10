@@ -1,0 +1,125 @@
+body,
+html {
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+  background-color: blueviolet;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.conteiner {
+  height: 632px;
+  width: 490px;
+  padding: 0%;
+  background-color: white;
+  border-radius: 20px;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  color: rgb(117, 45, 175);
+  padding: 0%;
+  margin: 0%;
+}
+
+.ubicacion {
+  display: flex;
+  align-items: center;
+}
+.ubicacion > img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.ubicacion > p {
+  font-weight: bold;
+}
+
+.seguidores {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numeros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cantidad {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0%;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.github {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.twitter {
+  background-color: rgb(75, 143, 221);
+}
+
+.instagram {
+  background-color: rgb(179, 41, 179);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button > div {
+  width: 200px;
+  height: 40px;
+  background-color: darkmagenta;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}

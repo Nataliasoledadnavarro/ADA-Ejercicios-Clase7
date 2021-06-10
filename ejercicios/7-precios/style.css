@@ -1,0 +1,50 @@
+body, html{ margin: 0%;
+            padding: 0%;
+            height: auto;}
+
+main{ background-color: rgb(22, 20, 20);
+        height: 100%;
+        color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+
+.titulos{ display: flex;    
+        justify-content: center;
+        flex-direction: column; 
+        align-items:center;
+        }
+
+.titulos > h1{ font-size: 40px; }
+
+.container{ display: flex; 
+            justify-content: space-around;
+        flex-wrap: wrap; }
+            
+.card{ height: 630px; 
+        width: 330px;
+        border: solid 1px rgb(158, 155, 155) ; 
+        border-radius: 10px;
+        background-color:rgba(128, 128, 128, 0.226); display: flex;
+        flex-direction: column; 
+        justify-content: space-around; 
+        align-items: center;}
+
+ h2{ font-size: 30px;
+        margin: 0%;}
+
+ .pesos{ font-size: 50px;
+        margin: 0%;
+        }
+
+ ul{ font-size: 20px; margin-top: 0%; 
+       margin-bottom: 100px;}
+
+ .boton{width: 90%;
+        height: 35px;
+        color: blue;
+        font-size: 14px;
+        border-radius: 10px;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         }

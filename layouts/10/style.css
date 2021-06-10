@@ -1,0 +1,57 @@
+body,
+html {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+main {
+  height: 100%;
+  display: flex;
+}
+
+.panel {
+  height: 100%;
+  width: 30%;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.derecha {
+  width: 70%;
+  height: calc(100% - 110px);
+}
+
+header {
+  height: 40px;
+  background-color: rgb(223, 119, 82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  height: 30px;
+  background-color: rgb(83, 27, 6);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 40px;
+  background-color: rgb(241, 122, 79);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

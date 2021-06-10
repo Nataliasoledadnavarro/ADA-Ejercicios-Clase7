@@ -1,0 +1,62 @@
+body{ background-color: white);
+}
+
+.fondo{width: 888px;
+        height: 554px;
+    margin-left: 20px;
+    margin-top: 80px;
+background-color: rgb(28, 28, 145);
+display: flex;
+justify-content: center;
+align-items: center; }
+
+.card{ width: 677px;
+        height: 300px;
+        border-radius: 20px;
+        background-color: rgb(8, 8, 68);
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+        ;align-items: center;
+    }
+ 
+.resultados{width: 500px;
+            height: 140px;
+           display: flex;
+justify-content: center;
+align-items: center;}
+
+
+.titulo{ color: white;  
+            font-weight: bolder; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            font-size: 14px;}
+
+.numeros{ color: white;  
+    font-weight: bolder; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 30px;
+display: flex;
+justify-content: space-around;
+align-items: center }
+
+.texto{ color: white;  
+    font-weight: bolder; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 12px;
+display: flex;
+justify-content: space-around;
+align-items: center;}
+
+.testimonios{ color: white;  
+    font-weight: bolder; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 12px; }
+
+a{ text-decoration: none;
+    color: blue;}
+
+
+
+
+

@@ -1,0 +1,146 @@
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(165, 156, 156);
+}
+
+.conteiner {
+  width: 800px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid chartreuse;
+  background-color: rgb(165, 156, 156);
+}
+
+.superior {
+  display: flex;
+  flex-direction: column;
+}
+
+.generador {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(6, 6, 68);
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.azul {
+  font-size: 10px;
+  color: white;
+  background-color: rgb(6, 6, 68);
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.colores {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.colores > div {
+  width: 120px;
+  height: 180px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.uno,
+.dos,
+.tres,
+.cuatro,
+.cinco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangulo {
+  width: 105px;
+  height: 140px;
+  margin-top: 10px;
+}
+
+.uno > .rectangulo {
+  background-color: #eeedf0;
+  border-radius: 10px;
+}
+
+.dos > .rectangulo {
+  background-color: #a1b5c1;
+  border-radius: 10px;
+}
+
+.tres > .rectangulo {
+  background-color: #f9aca7;
+  border-radius: 10px;
+}
+
+.cuatro > .rectangulo {
+  background-color: #68747d;
+  border-radius: 10px;
+}
+
+.cinco > .rectangulo {
+  background-color: #cd365f;
+  border-radius: 10px;
+}
+
+.codigo {
+  color: rgb(88, 86, 86);
+  font-size: 12px;
+}
+
+.tres > .codigo {
+  color: black;
+}
+
+.inferior {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 200px;
+  background-color: rgb(143, 97, 143);
+  border-radius: 10px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  border-style: none;
+}
+
+.inferior > p {
+  font-size: 10px;
+  color: rgb(88, 86, 86);
+}
+
+.click {
+  font-size: 7px;
+  margin-top: 30px;
+}

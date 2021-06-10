@@ -1,0 +1,95 @@
+body,
+html {
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteiner {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0%;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.estrellas {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteiner > p {
+  font-size: 10px;
+}
+
+.barra {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.barra > p {
+  font-size: 12px;
+}
+
+.barratotal {
+  width: 200px;
+  height: 10px;
+  background-color: rgb(161, 156, 156);
+  border-radius: 20px;
+}
+
+.cinco,
+.cuatro,
+.tres,
+.dos,
+.uno {
+  height: 10px;
+  background-color: yellow;
+  border-radius: 20px;
+}
+.cinco {
+  width: 168px;
+}
+.cuatro {
+  width: 18px;
+}
+.tres {
+  width: 8px;
+}
+.dos {
+  width: 4px;
+}
+.uno {
+  width: 2px;
+}
+
+.pregunta {
+  font-size: 10px;
+}

@@ -1,0 +1,126 @@
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  background-color: rgb(80, 74, 74);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cruz {
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cruz > img {
+  width: 20px;
+  height: 20px;
+}
+
+.texto {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  margin: 0%;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.redes {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook {
+  width: 73px;
+  height: 22px;
+  background-color: rgb(72, 72, 206);
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.twitter {
+  width: 73px;
+  height: 22px;
+  border-radius: 5px;
+  background-color: rgb(90, 173, 201);
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.reddit {
+  width: 73px;
+  height: 22px;
+  border-radius: 5px;
+  background-color: rgb(34, 32, 32);
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.facebook > img,
+.twitter > img,
+.reddit > img {
+  width: 20px;
+  height: 20px;
+}
+
+.facebook > p {
+  color: white;
+  font-size: 10px;
+}
+.twitter > p {
+  color: white;
+  font-size: 10px;
+}
+.reddit > p {
+  color: white;
+  font-size: 10px;
+}
+
+.share {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.share > div {
+  color: red;
+}

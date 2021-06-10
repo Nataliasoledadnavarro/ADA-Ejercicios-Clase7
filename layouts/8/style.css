@@ -1,0 +1,35 @@
+body, html{ height: 100%;
+            margin: 0%;
+            padding: 0%;}
+
+header, footer{ height: 40px;
+        background-color:#625164 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+nav{ height: 30px;
+        background-color:#B59AC5 ;
+        color: white;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        font-size: 25px;}
+
+main{ height: 100%;
+        display: flex;}
+
+.izquierda { height: 100%;
+             width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+
+.derecha{ height: 100%;
+            width: 30%;
+            background-color:#FDD6C5 ;
+            display: flex;
+            justify-content: center;
+            align-items: center;}
+
+body{ height: calc(100% - 110px)}
